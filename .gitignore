@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Git internals
+.git/
+
+# Logs
+*.log
+npm-debug.log*
+
+.dist/
